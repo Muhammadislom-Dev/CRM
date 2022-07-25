@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__name{
+        text-decoration: none;
+        padding: 23px 36px 0 68px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    &__item{
+        margin: 0 20px;
+    }
+
+    &__input{
+        outline: none;
+        background: #F8F8F8;
+        border-radius: 5px;
+        border: none;
+        width: 613px;
+        height: 36px;
+        padding: 10px 30px;
+    }
+}
