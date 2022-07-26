@@ -4,6 +4,7 @@ import './Dashboard.scss'
 
 import vector from '../../Assets/Img/vactor.png'
 import Progress from '../Progress/Progress';
+import { Rating } from '@mui/material';
 
 const Dashboard = () => {
     return(
@@ -17,7 +18,7 @@ const Dashboard = () => {
                     </div>
                     <div className='dashboard--item' style={{ width: 140, height: 140 }}>
                         <p className="dashboard__number">65% <span className='dashboard--span'>Yangi kelganlar</span></p>
-                        <CircularProgressbar value={65} />
+                        <CircularProgressbar  value={65} />
                     </div>
                 </div>
 
@@ -29,7 +30,7 @@ const Dashboard = () => {
                     </div>
                     <div className='dashboard--items' style={{ width: 140, height: 140 }}>
                         <p className="dashboard__numbers">20% <span className='dashboard--span'>Yangi kelganlar</span></p>
-                        <CircularProgressbar value={20} />
+                        <CircularProgressbar  value={20} />
                     </div>
                 </div>
 
@@ -41,11 +42,12 @@ const Dashboard = () => {
                     </div>
                     <div className='dashboard--item' style={{ width: 140, height: 140 }}>
                         <p className="dashboard__num">10% <span className='dashboard--span'>Yangi kelganlar</span></p>
-                        <CircularProgressbar value={10} />
+                        <CircularProgressbar  value={10} />
                     </div>
                 </div>
            </div>
            <Progress />
+           {/* <Rating /> */}
         </div>
     )
 }
