@@ -32,7 +32,7 @@ const Sidebar = () => {
                     <Link onClick={handleAddClass} to="/lesson" className="sidebar__link"><Lesson /> Kurslar</Link>
                 </li>
                 <li className="sidebar__item">
-                    <Link onClick={handleAddClass} to="#" className="sidebar__link"> <Group /> Guruhlar</Link>
+                    <Link onClick={handleAddClass} to="/category" className="sidebar__link"> <Group /> Guruhlar</Link>
                 </li>
                 <li className="sidebar__item">
                     <Link onClick={handleAddClass} to="#" className="sidebar__link"><Table />  Dars jadvali</Link>
