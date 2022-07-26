@@ -4,6 +4,7 @@ import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import TabPanel from './components/Section/Section'
+import Category from './components/Category/Category';
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
                   </Route>
                   <Route path="/lesson">
                      <TabPanel />
+                  </Route>
+                  <Route path="/category">
+                      <Category />
                   </Route>
               </Switch>
           </div>
