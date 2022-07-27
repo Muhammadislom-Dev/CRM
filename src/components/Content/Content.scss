@@ -1,0 +1,77 @@
+.content .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.content .css-1aquho2-MuiTabs-indicator{
+    background: #8D7CC1;
+    border-radius: 0.5px;
+    height: 3px;
+}
+
+.content{
+
+    &__list{
+        padding: 21px 0px 0 0px;
+    }
+
+    &__delete{
+        border: 1px solid #CC4025;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        width: 101px;
+        height: 28px;
+        justify-content: space-between;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #CC4025;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+
+    &__plus{
+        border: 1px solid #55B963;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        width: 101px;
+        height: 28px;
+        justify-content: space-between;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #55B963;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+
+    &__data{
+        margin: 0 20px;
+        border: 1px solid #EEEEEE;
+        border-radius: 3px;
+        background-color: transparent;
+        width: 87px;
+        height: 24px;
+    }
+
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+    }
+}

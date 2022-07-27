@@ -1,0 +1,110 @@
+.register{
+    padding: 50px;
+    text-align: center;
+
+    &__page{
+        background: #FFFFFF;
+        box-shadow: 0px 24px 70px rgba(0, 0, 0, 0.07);
+        border-radius: 8px;
+        height: 477px;
+        width: 430px;
+        margin: 70px auto;
+    }
+
+    &__name{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    &__label{
+        display: flex;
+        align-items: center;
+        border: 1px solid #EEEEEE;
+        border-radius: 8px;
+        width: 300px;
+        margin: 16px 10px;
+        height: 40px;
+        margin-left: 60px;
+    }
+
+    &__input{
+        border: none;
+        padding: 5px 10px;
+        width: 280px;
+        outline: none;
+
+        &::placeholder{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            opacity: 0.3;
+        }
+    }
+
+    &__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        padding-top: 20px;
+        padding-left: 200px;
+    }
+
+    &__img{
+        margin-left: 20px;
+    }
+
+    &__form{
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    &__texts{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: -0.05em;
+        color: #000000;
+    }
+
+    span{
+        color: #0D0A8E;
+    }
+
+    &__btn{
+        background: #000000;
+        border-radius: 8px;
+        width: 300px;
+        height: 40px;
+        border: 2px solid #000;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    &__pic{
+        margin-right: 10px;
+    }
+}
