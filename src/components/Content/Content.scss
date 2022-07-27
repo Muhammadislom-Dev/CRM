@@ -14,6 +14,7 @@
 }
 
 .content{
+    position: relative;
 
     &__list{
         padding: 21px 0px 0 0px;
@@ -74,4 +75,113 @@
         display: flex;
         align-items: center;
     }
+
+    &__table{
+        background: #FFFFFF;
+        border-radius: 8px 8px 0px 0px;
+        width: 100%;
+        padding: 0 150px 0 0;
+    }
+
+    &__name{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color: #000000;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    &__names{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color: #000000;
+        padding: 10px 0;
+    }
+
+    &__btn{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__label{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+
+    &__input{
+        width: 180px;
+        outline: none;
+        height: 40px;
+        background: #FFFFFF;
+        padding: 0 10px;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+    &__form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__modal--name{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        letter-spacing: -0.02em;
+        color: #171A23;
+        margin-left: 18px;
+    }
+
+    &__close{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 30px;
+        color: #000;
+        font-weight: bold;
+        position: absolute;
+        top: 19%;
+        left: 65%;
+        cursor: pointer;
+    }
+
+    &__button{
+        background: #8D7CC1;
+        border-radius: 8px;
+        width: 423px;
+        border: 2px solid #8D7CC1;
+        outline: none;
+        cursor: pointer;
+        height: 46px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 30px;
+        transition: 0.3s;
+
+        &:hover{
+            background-color: transparent;
+            color: #8D7CC1;
+            transform: scale(1.1);
+        }
+    }
+
 }
+
