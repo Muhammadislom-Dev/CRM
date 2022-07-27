@@ -3,7 +3,7 @@ import { IoCloseOutline } from "react-icons/io5";
 import logo from '../../Assets/Img/logo.png'
 import Modal from '../Modal/Modal';
 import { useState } from 'react';
-
+import TabPanel from '../Content/Content'
 
 
 const Category = () => {
@@ -13,9 +13,6 @@ const Category = () => {
     function openKorzinkaModal(){
         setKorzinkaModal(!korzinkaModal);
  }  
-
-    
-
 
     return(
         <div className="category">
@@ -61,6 +58,9 @@ const Category = () => {
                 </div>
             </div>
 
+            <h3 className="category__surname">Bizning guruhlarimiz</h3>
+
+            <TabPanel />
             <Modal show={korzinkaModal} className="modal-content"
                 contentLabel="Example Modal">
                   <button className='category__close' onClick={()=>setKorzinkaModal()}><IoCloseOutline /></button>

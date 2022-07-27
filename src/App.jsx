@@ -5,13 +5,15 @@ import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import TabPanel from './components/Section/Section'
 import Category from './components/Category/Category';
+import Register from './components/Register/Register';
 
 
 function App() {
   return (
     <div className="App">
-       <Navbar />
-       <div className="App__content">
+      <Register />
+       {/* <Navbar /> */}
+       {/* <div className="App__content">
           <Sidebar />
           <div className="App__list">
               <Switch>
@@ -26,7 +28,7 @@ function App() {
                   </Route>
               </Switch>
           </div>
-       </div>
+       </div> */}
     </div>
   );
 }
