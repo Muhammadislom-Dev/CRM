@@ -12,7 +12,7 @@ const Category = () => {
 
     function openKorzinkaModal(){
         setKorzinkaModal(!korzinkaModal);
- }  
+    }  
 
     return(
         <div className="category">

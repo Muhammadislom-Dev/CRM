@@ -11,9 +11,9 @@ import Register from './components/Register/Register';
 function App() {
   return (
     <div className="App">
-      <Register />
-       {/* <Navbar /> */}
-       {/* <div className="App__content">
+      {/* <Register /> */}
+       <Navbar />
+       <div className="App__content">
           <Sidebar />
           <div className="App__list">
               <Switch>
@@ -28,7 +28,7 @@ function App() {
                   </Route>
               </Switch>
           </div>
-       </div> */}
+       </div>
     </div>
   );
 }
