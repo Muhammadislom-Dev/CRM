@@ -35,16 +35,16 @@ const Sidebar = () => {
                     <Link onClick={handleAddClass} to="/category" className="sidebar__link"> <Group /> Guruhlar</Link>
                 </li>
                 <li className="sidebar__item">
-                    <Link onClick={handleAddClass} to="#" className="sidebar__link"><Table />  Dars jadvali</Link>
+                    <Link onClick={handleAddClass} to="/usertable" className="sidebar__link"><Table />  Dars jadvali</Link>
                 </li>
                 <li className="sidebar__item">
-                    <Link onClick={handleAddClass} to="#" className="sidebar__link"><Student /> Talabalar</Link>
+                    <Link onClick={handleAddClass} to="/userstudent" className="sidebar__link"><Student /> Talabalar</Link>
                 </li>
                 <li className="sidebar__item">
                     <Link onClick={handleAddClass} to="#" className="sidebar__link"><Attendance /> Davomat</Link>
                 </li>
                 <li className="sidebar__item">
-                    <Link onClick={handleAddClass} to="#" className="sidebar__link"><Payment />  To’lovlar</Link>
+                    <Link onClick={handleAddClass} to="/payment" className="sidebar__link"><Payment />  To’lovlar</Link>
                 </li>
             </ul>
         </div>
